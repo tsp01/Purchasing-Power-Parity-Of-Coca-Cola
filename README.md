@@ -1,4 +1,3 @@
-# Purchasing Power Parity Of Coca Cola
 This Program takes information about the pricing of Coca Cola cans(0.33 liters) from several countries and produces tables, and graphs using that information, as displayed below.
 
 ## What is purchasing power parity?
@@ -56,3 +55,6 @@ We then create a horizontal bar graph to show how these might. effect each other
 
 ## External Factor:
 For this program we wanted to see if obesity rates were correlated with price differences in Canadian dollars. We had initially presumed that we might find such a correlation due to the sugary, and gennerally unhealthy nature of the drink. The assumption was that in countries that were more obese you would see more soda sales gennerally and with that more Coke sales. Increased sales would drive prices lower to get ahead of the competition and thus we expected to see that where obesity rates were high the difference in CAD price would be very negative. This did not turn out to be the case. To our shock the correlation using np.corrcoef() was just 0.071. 
+
+## Conclusion:
+While I was suprised by the lack of any seeming correlation in obesity rates, something I was not suprised by was the fact that Canada is certainly not the cheapest place to buy a sweet can of Coke. In fact, amongst 58 other countries, 36 had cheaper cokes while 28 had more expensive cokes, and 1 had an equal price. Another point of interest was the fact that some countries such as Norway, and Sweden have amongst the highest prices for coke while the lowest rpcies tend to be seen in countries like Nigeria, and Egypt. Though again, no similarities can be drawn from the obesity rates. Something to ponder I suppose.

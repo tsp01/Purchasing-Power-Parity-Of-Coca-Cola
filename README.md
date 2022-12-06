@@ -43,12 +43,16 @@ This cell simply takes the price in CAD for each country and subtracts it by the
 ## 11:
 Here we create a horizontal bar graph denoting the price in CAD by country. We also remove Singapore from the list given that the price was far higher then in any other country distorting the graph.
 
+![Price_in_CAD_difference](difference_by_country_barh.png "Difference in CAD")
+
 ## 12:
 This cell scrapes a table from wikipedia denoting the obesity rates in percentage by country. The reasoning behind choosing obesity rates as a potenital external factor will be explained in a later section.
 
 ## 13
 Our final cell joins the table of obesity rates and prices, drops all columns other then obesity rate, price in CAD, and price differnce columns.
 We then create a horizontal bar graph to show how these might. effect each other. We chose to include the price in CAD column for clarity so people dont become as easily confused by the small and occassionaly negative difference column.
+
+![Obesity_price_difference](Obesity_price_difference_barh.png, "Difference in CAD and Obesity Rates")
 
 ## External Factor:
 For this program we wanted to see if obesity rates were correlated with price differences in Canadian dollars. We had initially presumed that we might find such a correlation due to the sugary, and gennerally unhealthy nature of the drink. The assumption was that in countries that were more obese you would see more soda sales gennerally and with that more Coke sales. Increased sales would drive prices lower to get ahead of the competition and thus we expected to see that where obesity rates were high the difference in CAD price would be very negative. This did not turn out to be the case. To our shock the correlation using np.corrcoef() was just 0.071. 

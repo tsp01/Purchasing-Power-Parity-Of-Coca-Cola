@@ -22,7 +22,7 @@ This Cell scrapes a table of the price of a 0.33 litre coke in 104 countries. Th
 Cell 4 creates the "Convert" function which uses an api to convert a number in one currency to another currency. It should be noted that this particular API requires an API key which can become non functional. If you need to use this function and get a 403 error code you will need a new API key which can be gotten for free at currencyscroop.com.
 
 ## 5:
-This cell scrapes a table containing country names and currency codes. We will use this to get the currency codes in our table of coke prices.
+This cell scrapes a table containing country names, and currency codes. We will use this to get the currency codes in our table of coke prices.
 
 ## 6:
 This cell defines the "get_currency_code" and "clean_currency_code" and uses them to take the currency codes from the table scraped in the previous cell, and attach them to the table with coke prices. An astute observer might notice that we used the ".apply" function instead of ".join". This is becuase in the table with the currency codes all country names were in all capital letters and to use ".join" we would have had to use ".apply" regardeless to alter capitalization. 

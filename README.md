@@ -1,4 +1,4 @@
-This Program takes information about the pricing of Coca Cola cans(0.33 liters) from several countries and produces tables, and graphs using that information, as displayed below.
+This Program takes information about the pricing of Coca Cola cans(0.33 liters), and information about obesity rates from several countries. It uses this information to produces tables, and graphs to figure out if there is some connection between price of Coke and obesity or other possible factors.
 
 ## What is purchasing power parity?
 Purchasing power parity is when you measure and compare the price of a certain good in different countries to determine the ability of different currencies to purchase said good.
